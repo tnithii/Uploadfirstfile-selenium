@@ -8,6 +8,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 //@RunWith(Cucumber.class)
+//runner
 @CucumberOptions(features="C:\\Users\\Home\\Selenium_Starts\\BDDframework\\src\\test\\java\\Featureexample\\Login.feature",glue="stepdefinitionexample")
 public class Runner extends AbstractTestNGCucumberTests {
 
