@@ -39,7 +39,7 @@ public class stepdefinition1{
 	public void username_and_password()
 	{
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+		driver.findElement(By.id("txtPassword")).sendKeys("admin1234");
 	}
 	@And ("^the user clicks the submit button$")
 	public void submit_button()
